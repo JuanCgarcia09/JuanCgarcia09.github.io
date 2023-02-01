@@ -1,0 +1,331 @@
+@media (min-width: 991px)  {
+    .flecha__abajo{
+        left: 16.66666667% !important;
+        width: 8.33333333% !important; 
+        float: left;
+    }
+    .colmd25{
+        left: 16.66666667% !important;
+        width: 58.33333333% !important;
+    }
+    .colmd__98{
+        width: 66.6%;
+        float: left;
+    }
+    .slim__nav{
+        padding: 6px 30px;
+    }
+    #max__width66{
+        width: 66.66666667%;
+    }
+    .enlace a span{
+        max-width: 40%;
+    }
+    .enlace a{
+        padding-bottom: 10% !important;
+        background-position: right center;
+        background-size: 55%;
+    }
+    #twitter{
+        width: 618px;
+    }
+    .seccion__responsive{
+        width: 970px;
+    }
+    .logo__principal{
+        margin: 25px 3px 14px 0;
+     flex-shrink: 0;
+    }
+    .logo__principal:before{
+        height: 55px;
+     width: 72px;
+    }
+    .navbar__superior div{
+        font-size: 0.825rem;
+    }
+    .header .container {
+        height: 90px;
+        padding: 0 30px;
+    }
+    .navbar__logo{
+        margin: 25px 3px 14px 0;
+        flex-shrink: 0;
+    }
+    .nav__bars{
+        position: relative;
+        height: auto !important;    
+    }
+    .navbar__inferior div{
+        margin-left: 22px;
+        line-height: 23px;
+        width: auto;
+        white-space: nowrap;
+        font-size: 1.125rem;
+        
+    }
+    .login__options div{
+        transition: text-decoration .25s ease-in-out;
+        text-decoration: 2px solid underline transparent;
+        text-underline-offset: 2px;
+    
+    }
+    .current__location{
+        transition: text-decoration .25s ease-in-out;
+    text-decoration: 2px solid underline transparent;
+    text-underline-offset: 2px;
+    }
+    .search{
+        display: flex;
+        transition: text-decoration .25s ease-in-out;
+        text-decoration: 2px solid underline transparent;
+        text-underline-offset: 2px;
+        font-size: 1.125rem;
+    }
+    .navbar__inferior{
+        flex-flow: row nowrap;
+        margin: auto 0 0 auto;
+    }
+    .hidden__elements{
+        display: none;
+    }
+    .barritas{
+        display: none;
+    }
+}
+
+@media (max-width: 1100px)  {
+    .navbar__inferior div{
+        font-size: 0.9rem;
+        
+    }
+    .search{
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 991px)  {
+    .flecha__abajo{
+        display: none !important;
+    }
+    .nav__bars{
+        position: absolute;
+        left: 0;
+        top: 62%;
+        height: 0;
+        opacity: 0;
+        flex-flow: column nowrap;
+        overflow: hidden;
+        overflow: auto;
+        transition: height .25s ease-in-out,opacity .25s ease-in-out;
+    }
+    .navbar__logo i {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 767px)  {
+    .colmd__99{
+        margin-top: 40px;
+        margin-right: 0;
+        margin-left: -15px;
+        padding: 30px;
+    }
+    .colmd__99 h1{
+        font-size: 2.3rem;
+    }
+    .colmd25 p:last-child::after{
+        width: 12px;
+    height: 12px;
+    }
+    .colmd25 p:last-child{
+        font-size: 1.466rem;
+        line-height: 1.3em;
+    }
+    li{
+        font-size: 1rem;
+        line-height: 1.5em;
+    }
+    .links__footer3{
+        margin-left: 0;
+    }
+    .logo__footer3{
+        display: flex;
+        width: 62px;
+        height: 47px;
+        margin-bottom: 29px;
+        margin-top: 0;
+        float: none;
+    }
+    .bor__padd a{
+        clear: both;
+        font-size: 1.5rem;
+    }
+    #twitter{
+        width: 99%;
+    }
+    .componente__texto h3{
+        font-size: 1.466rem;
+        line-height: 1.3em;
+    }
+    .flexesp{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .lateral__adjusts{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
+    .columna__responsive{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .textico{
+        margin-top: 20px;
+    }
+    #max__width{
+        width: 750px;
+    }
+    .bottom_margin{
+        margin-bottom: 20px;
+    }
+    .espaciado{
+        flex-wrap: wrap;
+    }
+    .columna__imagen{
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+    }
+    .imagen{
+        margin-top: 20px;
+    }
+    .texto__responsive{
+        margin-top: 20px;
+    }
+    .componente__texto p{
+        font-size: 1.2rem;
+    }
+}
+@media (min-width: 768px){
+    .colmd25{
+        left: 8.33333333%;
+        width: 83.33333333%;
+    }
+    .flecha__abajo{
+        left: 8.33333333%;
+        width: 16.66666667%;
+    }
+    .colmd__98{
+        background: #2d2d2d;
+        position: relative;
+        z-index: 100;
+    }
+    .colmd__99{
+        padding: 40px 30px 50px 0;
+    }
+    .tittle-header{
+        min-height: 350px;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+        -webkit-box-pack: end;
+        justify-content: flex-end;
+    }
+    .tittle-header .row{
+        position: relative;
+        display: flex;
+    }
+    .slim__content{
+        max-width: 100%;
+        overflow: hidden;
+    }
+    .slim__nav{
+        overflow: hidden;
+    }
+    .links__footer3 li a{
+        font-size: .857rem;
+    }
+    .links__footer3 li{
+        display: inline-block;
+        margin-right: 30px;
+    }
+    .row__lateral{
+        width: 100%;
+        float: left;
+    }
+    #twitter{
+        width: 470px;
+    }
+    .lateral__adjusts{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .columna__responsive{
+        margin-left: -15px;
+        width: calc(100% + 30px);
+    }
+    .espaciado{
+        margin-left: -15px;
+        width: calc(100% + 30px);
+    }
+    .columna__imagen{
+        width: calc((100% / 12)*4);
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .flexesp{
+        width: calc((100% / 12)*4);
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    #twitter{
+        width: calc((100% / 12)*8);
+    }
+
+}
+@media (min-width: 1200px){
+    .seccion__responsive{
+        width: 1170px;
+    }
+    #twitter_adjust{
+        width: 750px;
+    }
+}
+
+@media (min-width: 1400px){
+    .seccion__responsive{
+        width: 1370px;
+    }
+}
+@media (min-width: 480px){
+    .enlace a{
+        padding-bottom: 78%;
+    }
+    .central__social__media{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width: 480px){
+    .central__social__media a{
+        display: inline-table;
+        margin-top: 10px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    .links__footer3{
+        margin-left: 110px;
+    }
+    .logo__footer3{
+        width: 62px;
+        height: 47px;
+    }
+}
+@media (min-width: 768px) and (max-width: 990px){
+    .fondo__blanco .seccion__responsive{
+        width: 750px;
+    }
+}

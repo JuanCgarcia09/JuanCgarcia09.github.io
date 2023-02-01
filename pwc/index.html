@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+          name="description"
+          content="Web site copy of PWC"
+        />
+        <meta
+          property="og:description"
+          content="Web site copy of PWC "
+        />
+        <meta property="og:title" content="PWC Copy" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:site_name"
+          content="Juan Camilo Garcia| Web developer"
+        />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="media.css" />
+        <script src="https://kit.fontawesome.com/f434905c73.js" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="./index.js"></script>
+        <script src="http://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        
+        <title>Consultoría, auditoría y asesoría legal y tributaria | PwC Colombia | COPIA</title>
+      </head>
+      
+      <body onload="inicializar()">
+        <div class="wrapper">
+          <div class="root">
+            <section class="modal">
+              <div class="modal__container">
+                <div class="modal__tittle">
+                  Login
+                </div>
+                <input type="text" id="usuario" name="usuario" placeholder="Usuario" required>
+                <input type="password"  id="contrasena" placeholder="Contraseña" name="password">
+                <button id="botonsino" type="button" onclick='revisar()'>
+                  Continue
+                </button>
+                 
+              </div>
+            </section>
+            <div class="contenedor">
+              <div class="header">
+                <div class="container">
+                    <a href="./index.html" class="logo__principal"></a>
+                  <div class="hidden__elements busqueda">
+                    <i class="fa-solid fa-magnifying-glass "></i>
+                  </div>
+                  <div class="hidden__elements barritas">
+                    <i class="fas fa-bars "></i>
+                  </div>
+                  <div class="nav__bars">
+                    <nav class="navbar__superior">
+                      <div class="login__options">
+                        <div class="sign__in red__mark"  onclick="abrirmodal()">
+                          <div class="img__sign__ing">
+                            <i class="fa-regular fa-user" style="font-size: 1.25rem; padding-right: 5px;"></i>
+                          </div>
+                          <div class="text__sign__ing text__red">Sign in  |</div>
+                        </div>
+                        <div class="register" style=" margin-left: 3px">
+                         Register
+                        </div>
+                      </div>
+                      <div class="location__options">
+                        <div class="options__country red__mark">
+                          <div class="img__loc__options ">
+                            <i class="fa-solid fa-location-dot" style="font-size: 1.25rem"></i>
+                          </div>
+                          <div class="current__location text__red">
+                            <span>Colombia</span>
+                          </div>
+                      </div>
+                      </div>
+                    </nav>
+                    <nav class="navbar__inferior" style="max-width: 706px;">
+                      <div>Servicios</div>
+                      <div>Productos</div>
+                      <div>Industrias</div>
+                      <div>Publicaciones</div>
+                      <div>Nosotros</div>
+                      <div>PwC Insights</div>
+                      <div>Unete a PwC</div>
+                    </nav>
+                    <nav class="search">
+                      <div class="button__search red__mark">
+                        <div class="img__search">
+                          <i class="fa-solid fa-magnifying-glass" style="padding-right: 10px;"></i>
+                        </div>
+                        <div class="text__search text__red">Search</div>
+                      </div>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+              <div class="contenido">
+                <div class="contenedor">
+                  <div class="contenido">
+                    <div class="seccion contenido">
+                      <section class="pagina_seccion" style="background-size: cover;
+                      background-position: center top;">
+                      <div class="slider">
+                        <div class="slider__object ">
+                          <a href="./index.html" target="_blank">
+                            <div class="numbertext">1 / 4</div>
+                            <img src="https://www.pwc.com/co/es/publicaciones/ia-responsable/b-web-ia.png" style="width:100%" alt="Inteligencia Artificial Responsable">
+                            <div class="textico">Haz clic para conocer más</div>
+                          </a>
+                        </div>
+                        <div class="slider__object ">
+                          <a href="./index.html" target="_blank">
+                            <div class="numbertext">2 / 4</div>
+                            <img src="https://www.pwc.com/co/es/publicaciones/informe-sostenibilidad/b-web-informe-sos-pwc.jpg" style="width:100%" alt="Inteligencia Artificial Responsable">
+                            <div class="textico">Haz clic para conocer más</div>
+                          </a>
+                        </div>
+                        <div class="slider__object ">
+                          <a href="./index.html" target="_blank">
+                            <div class="numbertext">3 / 4</div>
+                            <img src="https://www.pwc.com/co/es/publicaciones/gecs/b-web-gecs-pwc.png" style="width:100%" alt="Inteligencia Artificial Responsable">
+                            <div class="textico">Haz clic para conocer más</div>
+                          </a>
+                        </div>
+                        <div class="slider__object ">
+                          <a href="./index.html" target="_blank">
+                            <div class="numbertext">4 / 4</div>
+                            <img src="https://www.pwc.com/co/es/publicaciones/hopes-and-fears/b-web-hopes-fears-pwc.jpg" style="width:100%" alt="Inteligencia Artificial Responsable">
+                            <div class="textico">Haz clic para conocer más</div>
+                          </a>
+                        </div>
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                      </div>
+                      <br>
+                      <div class="punticos" style="text-align: center;">
+                        <span class="dot" onclick="actualizarpuntos(1)"></span>
+                        <span class="dot" onclick="actualizarpuntos(2)"></span>
+                        <span class="dot" onclick="actualizarpuntos(3)"></span>
+                        <span class="dot" onclick="actualizarpuntos(4)"></span>
+                      </div>
+                      </section>
+                    </div>
+                    <div class="seccion contenido">
+                      <section class="pagina_seccion" style="background-size: cover;
+                      background-position: center top; margin-top: 30px;">
+                        <div class="seccion__responsive" id="max__width">
+                          <div class="bottom_margin">
+                            <div class="flexible espaciado">
+                              <div class="columna__imagen">
+                                <div class="imagen alineado__centro">
+                                  <div class="full__container">
+                                    <a href="https://www.pwc.com/co/es/pwc-insights/cop26-union-materializacion.html">
+                                      <img id="imagen" alt="COP 26" width="500" height="66.60000000000001%" data-emptytext="Image" style="background-color: transparent;" src="https://www.pwc.com/co/es/prensa/Articulos/cop26-2.jpg">
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="texto__imagen">
+                                  <div class="componente__texto">
+                                    <p style="text-align: center;"><strong>COP26, la cumbre de la unión y la materialización de las acciones para enfrentar el cambio climático</strong></p>
+                                    <p style="text-align: center;"><strong class="boton__rojo__padre"><a pwcbtnrendition="Red" pwcbtnicon="Chevron" pwcbtnfile="HideSize" href="https://www.pwc.com/co/es/pwc-insights/cop26-union-materializacion.html" class="boton__rojo boton" target="_blank">Léelo aquí<i></i></a></strong></p>                                    
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="columna__imagen">
+                                <div class="imagen alineado__centro">
+                                  <div class="full__container">
+                                    <a href="https://www.pwc.com/co/es/pwc-insights/negocios-familiares-esg.html">
+                                      <img id="imagen" alt="COP 26" width="500" height="66.60000000000001%" data-emptytext="Image" style="background-color: transparent;" src="https://www.pwc.com/co/es/prensa/assets/home2.png">
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="texto__imagen">
+                                  <div class="componente__texto">
+                                    <p style="text-align: center;"><strong>COP26, la cumbre de la unión y la materialización de las acciones para enfrentar el cambio climático</strong></p>
+                                    <p style="text-align: center;"><strong class="boton__rojo__padre"><a pwcbtnrendition="Red" pwcbtnicon="Chevron" pwcbtnfile="HideSize" href="https://www.pwc.com/co/es/pwc-insights/negocios-familiares-esg.html" class="boton__rojo boton" target="_blank">Léelo aquí<i></i></a></strong></p>                                    
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="columna__imagen">
+                                <div class="imagen alineado__centro">
+                                  <div class="full__container">
+                                    <a href="https://www.pwc.com/co/es/pwc-insights/beneficios-tributarios.html">
+                                      <img id="imagen" alt="COP 26" width="500" height="66.60000000000001%" data-emptytext="Image" style="background-color: transparent;" src="https://www.pwc.com/co/es/prensa/assets/home3.jpeg">
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="texto__responsive">
+                                  <div class="componente__texto">
+                                    <p style="text-align: center;"><strong>COP26, la cumbre de la unión y la materialización de las acciones para enfrentar el cambio climático</strong></p>
+                                    <p style="text-align: center;"><strong class="boton__rojo__padre"><a pwcbtnrendition="Red" pwcbtnicon="Chevron" pwcbtnfile="HideSize" href="https://www.pwc.com/co/es/pwc-insights/beneficios-tributarios.html" class="boton__rojo boton" target="_blank">Léelo aquí<i></i></a></strong></p>                                    
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                    <div class="seccion contenido">
+                      <section class="pagina seccion salto__linea" style="background-size:cover;background-position:center top; background: #f2f2f2; ">
+                        <div class="seccion__responsive" id="max__width">
+                          <div>
+                            <div class="columna__responsive">
+                              <div class="lateral__adjusts">
+                                <div class="texto__responsive">
+                                  <div class="componente__texto">
+                                    <h2>Thought Leaderships PwC Colombia</h2>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="bottom_margin">
+                              <div class="flexible espaciado">
+                                <div class="flexesp">
+                                  <div class="texto__responsive">
+                                    <div class="componente__texto">
+                                      <h3 style="text-align: center;">PwC Insights</h3>
+                                      <div><strong>Información valiosa para personas y empresas valiosas</strong>.&nbsp;Queremos que conozcas de primera mano los desafíos y retos que enfrenta hoy el mundo. Consulta lo último en tendencia para el crecimiento de las empresas, los sectores y la sociedad.</div>
+                                      <p style="text-align: center;" class="boton__rojo__padre">
+                                        <a pwcbtnrendition="Orange" pwcbtnicon="Chevron" pwcbtnfile="HideSize" href="/co/es/pwc-insights.html" class="boton__naranja boton" target="_blank">
+                                          Conoce el PwC Insights&nbsp;
+                                          <i></i></a>
+                                        </p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="flexesp" id="twitter">
+                                  <div class="texto__responsive">
+                                    <div class="twitter" style="display: flex; max-width: 100%; margin-top: 0px; margin-bottom: 0px;">
+                                      <iframe id="twitter_adjust" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="" style="position: static; visibility: visible; width: 470px; height: 400px; display: block; flex-grow: 1;" title="Twitter Timeline" src="https://syndication.twitter.com/srv/timeline-profile/screen-name/PwC_Colombia?dnt=false&amp;embedId=twitter-widget-0&amp;features=eyJ0ZndfdGltZWxpbmVfbGlzdCI6eyJidWNrZXQiOltdLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2ZvbGxvd2VyX2NvdW50X3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9iYWNrZW5kIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19yZWZzcmNfc2Vzc2lvbiI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0Zndfc2hvd19idXNpbmVzc192ZXJpZmllZF9iYWRnZSI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfbWl4ZWRfbWVkaWFfMTU4OTciOnsiYnVja2V0IjoidHJlYXRtZW50IiwidmVyc2lvbiI6bnVsbH0sInRmd19leHBlcmltZW50c19jb29raWVfZXhwaXJhdGlvbiI6eyJidWNrZXQiOjEyMDk2MDAsInZlcnNpb24iOm51bGx9LCJ0ZndfZHVwbGljYXRlX3NjcmliZXNfdG9fc2V0dGluZ3MiOnsiYnVja2V0Ijoib24iLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3ZpZGVvX2hsc19keW5hbWljX21hbmlmZXN0c18xNTA4MiI6eyJidWNrZXQiOiJ0cnVlX2JpdHJhdGUiLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3Nob3dfYmx1ZV92ZXJpZmllZF9iYWRnZSI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfbGVnYWN5X3RpbWVsaW5lX3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0Zndfc2hvd19nb3ZfdmVyaWZpZWRfYmFkZ2UiOnsiYnVja2V0Ijoib24iLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3Nob3dfYnVzaW5lc3NfYWZmaWxpYXRlX2JhZGdlIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd190d2VldF9lZGl0X2Zyb250ZW5kIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH19&amp;frame=false&amp;hideBorder=false&amp;hideFooter=false&amp;hideHeader=true&amp;hideScrollBar=false&amp;lang=es&amp;maxHeight=400px&amp;origin=https%3A%2F%2Fwww.pwc.com%2Fco%2Fes.html&amp;sessionId=5065c3941a77bce19d1aa0cc40422af62bfb1a5b&amp;showHeader=false&amp;showReplies=false&amp;transparent=false&amp;widgetsVersion=aaf4084522e3a%3A1674595607486">
+                                      </iframe>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                    <div class="seccion contenido">
+                      <section class="pagina seccion salto__linea" style="background-size:cover;background-position:center top; "></section>
+                    </div>
+                  </div>
+                </div>
+                <div class="footer1">
+                  <section class="pagina_seccion salto__linea" style="height: auto;">
+                    <div class="full__padding">
+                      <div class="social__media">
+                        <div class="central__social__media">
+                          <span>Síguenos PwC Colombia</span>
+                          <a href="https://www.facebook.com/pwccolombia/" target="_blank" title="Facebook Follow" class="socialfollow- Facebook Follow">
+                            <img src="https://www.pwc.com/content/pwc/script/network/follow/follow_facebook.png" alt="Facebook Follow">
+                          </a> 
+                        
+                        <a href="https://twitter.com/PwC_Colombia" target="_blank" title="Twitter Follow" class="socialfollow- Twitter Follow">
+                            <img src="https://www.pwc.com/content/pwc/script/network/follow/follow_twitter.png" alt="Twitter Follow">
+                          </a> 
+                        
+                        <a href="https://www.linkedin.com/company/pwc-colombia" target="_blank" title="Linkedin Follow" class="socialfollow- Linkedin Follow">
+                            <img src="https://www.pwc.com/content/pwc/script/network/follow/follow_linkedin.png" alt="Linkedin Follow">
+                          </a> 
+                        
+                        <a href="https://www.youtube.com/user/PwCColombia" target="_blank" title="SocialFollow_Youtube" class="socialfollow- Youtube Follow">
+                            <img src="https://www.pwc.com/content/pwc/script/network/follow/follow_youtube.png" alt="SocialFollow_Youtube">
+                          </a> 
+                        
+                        <a href="https://www.instagram.com/pwc_colombia/" target="_blank" title="Instagram Follow" class="socialfollow- Instagram Follow">
+                            <img src="https://www.pwc.com/content/pwc/script/network/follow/follow_instagram.png" alt="Instagram Follow">
+                          </a> 
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </div>
+              <div class="footer">
+                <section id="footer" style="height: auto;">
+                  <div class="full__padding">
+                    <div class="fondo__blanco">
+                      <div class="seccion__responsive enlace">
+                        <a href="https://www.pwc.com/gx/en/the-new-equation.html">
+                          <span>Somos una comunidad que da soluciones, combinando la inteligencia humana, la experiencia y la innovación tecnológica para entregar resultados sostenibles y construir confianza.<br><br>Todo tiene sentido con La Nueva Ecuación.
+                          </span><br>
+                          <span>Mira cómo La Nueva Ecuación puede darte soluciones</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="footer2">
+                    <div id="footer2">
+                      <div class="seccion__responsive">
+                        <div class="main-footer2">
+                          <div class="row">
+                            <div id="main-footer2">
+                              <div class=" breadcrumb-component__scroll-pane">
+                                <ul class="breadcrumb">
+                                  <li>
+                                    <a href="https://www.pwc.com/co/es.html">PwC Colombia</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="row__lateral" style="padding-bottom: 20px;">
+                            <div class="bor__padd">
+                                <a class="hov__underline" href="https://www.pwc.com/co/es/acerca-de-nosotros.html" aria-label="Acerca de Nosotros">Acerca de Nosotros</a>
+                                <a class="hov__underline" href="https://www.pwc.com/co/es/nuestros-servicios.html" aria-label="Nuestros servicios">Nuestros servicios</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="row__lateral">
+                            <div class="upline">
+                              <div class="row" id="max__width66">
+                                <div class="footer3">
+                                  <a href="https://www.pwc.com/co/es" aria-label="slim-footer-logo" class="logo__footer3"></a>
+                                  <p>©&nbsp;2023
+                                    PwC. PricewaterhouseCoopers. PwC se refiere a las Firmas colombianas que hacen parte de la red global de PricewaterhouseCoopers International Limited, cada una de las cuales es una entidad legal separada e independiente. Todos los derechos reservados.
+                                  </p>
+                                  <ul class="links__footer3">
+                                    <li>
+                                      <a href="/co/es/privacidad.html">Política de privacidad</a>
+                                    </li>
+                                    <li>
+                                      <a href="/co/es/legal.html">Términos legales</a>
+                                    </li>
+                                    <li>
+                                      <a href="/co/es/responsable-del-sitio.html">Acerca del proveedor de este sitio</a>
+                                    </li>
+                                    <li>
+                                      <a href="/co/es/politica-de-tratamiento-de-datos-personales.html">Política de tratamiento de datos personales</a>
+                                    </li>
+                              </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </body>
+
+
+
+
+</html>
